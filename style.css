@@ -1,0 +1,128 @@
+body {
+  margin: 40px;
+  font-size: 13px;
+  font-family: "Source Sans Pro", sans-serif;
+  background: black;
+}
+
+main {
+  width: 375px;
+  height: 1700px;
+  margin: 0 auto;
+  background: #ededed;
+}
+header {
+  background: white;
+  width: 375px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.first-post,
+.second-post,
+.third-post {
+  background: #ffffff;
+  height: 545px;
+  width: 375px;
+}
+
+.logo,
+.profile-pic {
+  padding: 17px 10px;
+}
+.profile-pic,
+.sect2-img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+.sect2-img {
+  padding: 10px;
+  align-self: center;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #c6c6c6;
+  color: #000000;
+  height: 67px;
+  width: 375px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 33px;
+  width: 127px;
+}
+.second-section {
+  display: flex;
+  width: 348px;
+  margin: 0;
+}
+
+.post-div p {
+  margin: 0;
+  padding: 0;
+}
+.post-div {
+  padding: 20px 0;
+  width: 375px;
+}
+.username {
+  font-weight: bold;
+}
+.location {
+  font-size: 12px;
+}
+.post,
+.second-post-pic,
+.third-post-pic {
+  height: 375px;
+  width: 375px;
+}
+.icons img {
+  width: 23px;
+  height: 23px;
+  padding: 4px;
+}
+.icons {
+  margin-left: 15px;
+}
+.interactions {
+  padding-left: 22px;
+  margin-top: 10px;
+}
+
+.txt,
+.likes {
+  font-weight: bold;
+}
+.like:hover,
+.commentcon:hover,
+.messageIcon:hover {
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+}
+.like:active,
+.commentcon:active,
+.messageIcon:active {
+  height: 23px;
+  width: 23px;
+}
+
+.second-post,
+.third-post {
+  margin-top: 25px;
+  background: #ffffff;
+}
+.second-post {
+  height: 545px;
+}
+.third-post {
+  height: 560px;
+}
+.interactions p {
+  margin-top: 12px;
+}
